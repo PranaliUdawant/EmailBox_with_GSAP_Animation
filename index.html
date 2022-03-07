@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mycs.css">
+</head>
+
+<body>
+    <div class="tri2">
+        <img src="./../pic.svg" alt="">
+    </div>
+    <div class="main">
+        <img src="./../msg2.svg" alt="">
+    </div>
+
+    <div class="box">
+        <div class="triangle">
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.from(".main", {
+            y: -100,
+            duration: 2,
+            repeat: -1,
+            ease: "bounce.out"
+        })
+        // gsap.to(".tri2", {
+        //     y: 100,
+        //     // transform: rotateZ(180),
+        //     // rotation: 180,
+        //     duration: 2,
+        //     repeat: -1
+        // })
+    </script>
+</body>
+
+</html>

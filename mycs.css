@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main>img{
+    width: 250px;
+}
+.box{
+position: absolute;
+}
+.triangle{
+    /* height: 100px; */
+    /* width: 100px; */
+    border-bottom: 100px solid rgb(202, 125, 233);
+    border-right: 160px solid rgb(202, 125, 233);
+    border-left: 200px solid rgb(137, 65, 155);
+    border-top: 100px solid transparent;
+    }
+    .tri2{
+        position: absolute;
+    }
+    .tri2>img{
+        position: relative;
+        top:-175px ;
+    width: 360px;
+    transform:rotateX('180')
+    }
